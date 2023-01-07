@@ -11,6 +11,7 @@
     justify-content:end;
     align-items: center;
     text-align: end;
+    background-repeat: no-repeat;
 }
 .header-title{
     font-weight: 900;
@@ -49,7 +50,7 @@
 .fist-section-img img{
     width: 500px;
 }
-.previous-year-titale{
+.previous-year-title{
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 20px;
@@ -59,4 +60,69 @@
     font-weight: 400;
     font-size: 16px;  
     color: #444343;
+}
+ul {
+    list-style:none;
+    padding:0;
+    margin-top: 30px;
+}
+ul li{
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+}
+ul i{
+    color: #16D887;
+    
+}
+
+/* My plane section style */
+
+.my-plane-title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom:50px;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.my-all-plans{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.my-plans img{
+    width: 80px;
+}
+.my-plans h1{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.my-plans p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+
+/* be-positive-section */
+
+.be-positive-section{
+    background-image: url("../images/gradient1.png"),url("../images/watch.png");
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   display: flex;
+   align-items: center;
+}
+.be-positiv{
+   
+    padding-left: 30px;
+    
 }
